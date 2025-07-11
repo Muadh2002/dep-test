@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://your-backend.example.com/api/:path*"
+      "destination": "https://emp-be.vercel.app/api/:path*"
     }
   ],
   "redirects": [
@@ -25,7 +25,7 @@
     }
   ],
   "env": {
-    "NEXT_PUBLIC_API_URL": "https://your-backend.example.com/api"
+    "NEXT_PUBLIC_API_URL": "https://emp-be.vercel.app/api"
   },
   "functions": {
     "api/**/*.js": {
