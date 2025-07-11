@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGO_URI, {
 })
 .then(() => {
   console.log('MongoDB connected...');
-  const port = process.env.PORT || 5001;
+  const port = process.env.PORT || 3000;
   app.listen(port, () => {
     console.log(`Server running on port ${port}`);
   });
